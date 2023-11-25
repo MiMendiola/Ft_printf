@@ -6,7 +6,7 @@
 /*   By: mmendiol <mmendiol@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/20 21:18:10 by mmendiol          #+#    #+#             */
-/*   Updated: 2023/11/20 21:32:18 by mmendiol         ###   ########.fr       */
+/*   Updated: 2023/11/24 18:30:58 by mmendiol         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,8 @@
 int ft_printf(char const *total_str, ...);
 
 // AUXILIAR FUNCTIONS
-int	ft_putchar(char c, int fd);
+int	ft_putchar(int c);
 int	ft_putnbr(int nb);
-int	ft_putstr(char *s, int fd); 
+int	ft_putstr(char *s); 
 
 #endif

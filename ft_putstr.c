@@ -1,35 +1,36 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
+/*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mmendiol <mmendiol@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/29 19:06:20 by mmendiol          #+#    #+#             */
-/*   Updated: 2023/11/20 21:32:10 by mmendiol         ###   ########.fr       */
+/*   Updated: 2023/11/25 14:19:29 by mmendiol         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	ft_putstr(char *s, int fd)
+int	ft_putstr(char *s)
 {
 	int	i;
 
 	i = 0;
-	while (s[i])
+	if (!s)
 	{
-		write(fd, &s[i], 1);
-		i++;
+		i += ft_putstr("(null)");
+		return (i);
 	}
+	while (s[i])
+		i += ft_putchar(s[i]);
 	return (i);
 }
 
-/*
-int	main(void)
-{
-	char s[] = "Holi";
+// int	main(void)
+// {
+// 	char s[] = "";
 
-	ft_putstr_fd(s, 1);
-    return (0);
-}*/
+// 	ft_putstr(s);
+//     return (0);
+// }
