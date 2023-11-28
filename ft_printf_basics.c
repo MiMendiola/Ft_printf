@@ -6,7 +6,7 @@
 /*   By: mmendiol <mmendiol@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/27 16:19:18 by mmendiol          #+#    #+#             */
-/*   Updated: 2023/11/27 17:25:07 by mmendiol         ###   ########.fr       */
+/*   Updated: 2023/11/27 16:38:11 by mmendiol          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,8 +56,8 @@ int	ft_putnbr(int nb)
 
 int	ft_putnbr_unsigned(unsigned int nb)
 {
-	unsigned int num;
-	int counter;
+	unsigned int	num;
+	int				counter;
 
 	num = nb;
 	counter = 0;

@@ -5,7 +5,7 @@ CC = cc
 AR = ar -crs
 RM = rm -f
 
-SRCS = ft_printf.c
+SRCS = ft_printf.c ft_printf_basics.c ft_printf_others.c
 
 OBJS = $(SRCS:.c=.o)
 
