@@ -1,4 +1,7 @@
 #include "ft_printf.h"
+#include "ft_printf.c"
+#include "ft_printf_basics.c"
+#include "ft_printf_basics.c"
 
 int	main(void)
 {

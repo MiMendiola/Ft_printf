@@ -6,7 +6,7 @@
 /*   By: mmendiol <mmendiol@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/27 16:19:18 by mmendiol          #+#    #+#             */
-/*   Updated: 2023/11/27 16:27:09 by mmendiol         ###   ########.fr       */
+/*   Updated: 2023/12/20 13:59:24 by mmendiol         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ int	ft_putptr(unsigned long nb)
 	int		counter;
 
 	base = "0123456789abcdef";
-	counter = 0;
+	counter = 2;
 	ft_putstr("0x");
 	if (nb >= 16)
 	{
