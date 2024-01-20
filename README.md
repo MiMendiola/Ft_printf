@@ -15,7 +15,7 @@ First, let's talk about our main file, `ft_printf`, where we will have our funct
 
 ---
 
-## Tabla de Contenidos
+## Table of Contents
 
 [FT_PRINTF.C](./ft_printf.c)
 
@@ -27,7 +27,7 @@ First, let's talk about our main file, `ft_printf`, where we will have our funct
 
 ---
 
-## Recomendaciones
+## Recommendations
 
 Investigate how to work with `variadic functions` and what possibilities of use we have with them.
 
