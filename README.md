@@ -1,16 +1,17 @@
 # Ft_printf
 
-![Proyecto](https://img.shields.io/badge/Ft_printf-Project-blue)
-![Licencia](https://img.shields.io/badge/Licencia-MIT-orange)
-![Versión](https://img.shields.io/badge/Versión-1.0-green)
+![Project](https://img.shields.io/badge/Project-Ft_printf-blue)
+![Licence](https://img.shields.io/badge/Licence-MIT-orange)
+[![Idioma](https://img.shields.io/badge/Idioma-Español-purple)](https://github.com/MiMendiola/Ft_printf/tree/main/Documentation/README.es.md)
+![Version](https://img.shields.io/badge/Version-1.0-green)
 
-El objetivo de este proyecto es reprogramar una de las funciones mas practicas `printf` y poder descubrir las `funciones variadicas` en C.
-Tendremos la libertad de hacer todos los archivos que queramos y tendremos que tenerlo en cuenta en nuestro `.h` y `Makefile`.
+The goal of this project is to reprogram one of the most practical function `printf`, and discover the use of `variadic functions` in C.
+We have the freedom to create as many files as we want, and we have to keep this in mind in our `.h` and `Makefile`.
 
-Primero hablemos de nuestro archivo principal `ft_printf` donde tendremos nuestra funcion estipulada en nuestro subject donde estaremos utilizando nuestras `funciones variadicas` y estaremos en `busca de un %` para poder identificar el `tipo de variable` que nos estan pidiendo. La otra funcion es un `seleccionador de tipo` en la cual tambien usaremos una de nuestras funciones variadicas y trabajaremos con el `siguiente caracter al %` encontrado previamente, desde ese punto seleccionaremos que `tipo` de funcion usaremos `dependiendo de la letra encontrada`.
+First, let's talk about our main file, `ft_printf`, where we will have our function stipulated in our subject, using our `variadic functions` and `looking for a %` to identify the `variable type` requested. The other function is a `type selector`, where we will also use one of our variadic functions and work with the `next character after the %` previously found. From that point, we will select the `type` of function to use `depending on the letter found`.
 
-- En nuestro `ft_printf_basics` tendremos las funciones que nos solucionaran los mas `basicos` como poner un solo caracter, una string o poner numeros con y sin signo. Aqui podremos usar funciones usadas anteriormente en la `Libft` y los modificaremos teniendo en cuenta el `contador` de caracteres devueltos el cual sera devuelto en cada funcion.
-- En `ft_printf_others` tengo situado las funciones que necesitaremos para mostrar nuestros `numeros hexadecimales` y otra relacionada para las `direcciones de punteros`, a la misma vez siempre teniendo en cuenta nuestro `contador`.
+- In our `ft_printf_basics`, we will have functions that will solve the most `basic` tasks, such as printing a single character, a string, or displaying numbers with and without a sign. Here, we can use functions previously used in the `Libft` and modify them, taking into account the `character counter` returned, which will be returned in each function.
+- In `ft_printf_others`, I have placed the functions we will need to display our `hexadecimal numbers` and another related to `pointer addresses`, always considering our `counter`.
 
 ---
 
@@ -28,19 +29,19 @@ Primero hablemos de nuestro archivo principal `ft_printf` donde tendremos nuestr
 
 ## Recomendaciones
 
-Investigar como trabajar con las `funciones variadicas` y que posibilidades de uso tenemos con ellas.
+Investigate how to work with `variadic functions` and what possibilities of use we have with them.
 
-Tener claro que tipo de `conversiones` tenemos que realizar y como poder realizar esas conversiones. Para esto te puedes ayudar en algunas de las funciones de la libreria pero recuerda que no puedes incluir la `Libft`.
+Have a clear idea of what `type of conversions` we need to perform and how to make those conversions. For this, you can seek help from some functions in the library, but remember that you cannot include `Libft`.
 
-Averiguar y saber como funcionan los `numeros hexadecimales`, como llegaron a ser lo que son y en que podemos usarlo a nuestro favor. Al igual que con las `direcciones de los punteros`, saber como se forma y como poder utilizarlos.
+Find out and understand how `hexadecimal numbers` work, how they became what they are, and how we can use them to our advantage. Similarly, with `pointer addresses`, understand how they are formed and how to use them.
 
-Tener en cuenta que tendremos que devolver la suma total de lo impreso por pantalla, asique seria bueno tener un `contador` que nos ayudase.
+Keep in mind that we have to return the total sum of what is printed on the screen, so it would be good to have a `counter` that helps us.
 
 ---
 
-## Contacto
+## Contact
 
-Si tienes alguna pregunta, sugerencia o comentario sobre ft_printf, no dudes en ponerte en contacto conmigo:
+If you have any questions, suggestions, or comments about ft_printf, feel free to contact me:
 
-- Correo Electrónico: <a href="mailto:mglmendiol@gmail.com" style="text-decoration: none; color:#fff">mglmendiol@gmail.com</a>
+- Email: <a href="mailto:mglmendiol@gmail.com" style="text-decoration: none; color:#fff">mglmendiol@gmail.com</a>
 - LinkedIn: <a href="https://www.linkedin.com/in/mimendiola/" style="text-decoration: none; color:#fff !important;">https://www.linkedin.com/in/mimendiola/</a>
