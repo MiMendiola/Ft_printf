@@ -2,7 +2,7 @@
 
 ![Proyecto](https://img.shields.io/badge/Proyecto-Ft_printf-blue)
 ![Licencia](https://img.shields.io/badge/Licencia-MIT-orange)
-[![Language](https://img.shields.io/badge/Language-English-purple)](https://github.com/MiMendiola/Ft_printf#ft_printf)
+[![Change_Language](https://img.shields.io/badge/Change_Language-English-purple)](https://github.com/MiMendiola/Ft_printf#ft_printf)
 ![Versión](https://img.shields.io/badge/Versión-1.0-green)
 
 El objetivo de este proyecto es reprogramar una de las funciones mas practicas `printf` y poder descubrir las `funciones variadicas` en C.
