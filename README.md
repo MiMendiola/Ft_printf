@@ -2,16 +2,16 @@
 
 ![Project](https://img.shields.io/badge/Project-Ft_printf-blue)
 ![Licence](https://img.shields.io/badge/Licence-MIT-orange)
-[![Idioma](https://img.shields.io/badge/Idioma-Español-purple)](https://github.com/MiMendiola/Ft_printf/tree/main/Documentation/README.es.md)
+[![Cambiar_Idioma](https://img.shields.io/badge/Cambiar_Idioma-Español-purple)](https://github.com/MiMendiola/Ft_printf/tree/main/Documentation/README.es.md)
 ![Version](https://img.shields.io/badge/Version-1.0-green)
 
-The goal of this project is to reprogram one of the most practical function `printf`, and discover the use of `variadic functions` in C.
-We have the freedom to create as many files as we want, and we have to keep this in mind in our `.h` and `Makefile`.
+This project aims to reprogram the practical function `printf` and learn about using `variadic functions` in C. We can create as many files as we want and keep this in mind while creating our `.h` and `Makefile`.
 
-First, let's talk about our main file, `ft_printf`, where we will have our function stipulated in our subject, using our `variadic functions` and `looking for a %` to identify the `variable type` requested. The other function is a `type selector`, where we will also use one of our variadic functions and work with the `next character after the %` previously found. From that point, we will select the `type` of function to use `depending on the letter found`.
+Let's start by discussing our main file, `ft_printf`, where we will have our function as per the subject, using `variadic functions`, and looking for a `%` to identify the type of variable requested. The other function is a `type selector`, where we will also use a variadic function and work with the next character after the `%` found earlier. From that point, we will select the function type depending on the letter found.
 
-- In our `ft_printf_basics`, we will have functions that will solve the most `basic` tasks, such as printing a single character, a string, or displaying numbers with and without a sign. Here, we can use functions previously used in the `Libft` and modify them, taking into account the `character counter` returned, which will be returned in each function.
-- In `ft_printf_others`, I have placed the functions we will need to display our `hexadecimal numbers` and another related to `pointer addresses`, always considering our `counter`.
+Our `ft_printf_basics` will have basic functions that will help us print a single character, or string, or display numbers with and without a sign. Here, we can modify functions previously used in `Libft` while considering the character counter returned, which will be returned in each function.
+
+In `ft_printf_others`, we placed functions needed to display hexadecimal numbers and others related to pointer addresses, always considering our counter.
 
 ---
 
