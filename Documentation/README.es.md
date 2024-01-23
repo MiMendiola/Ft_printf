@@ -1,9 +1,15 @@
 # Ft_printf
 
-![Proyecto](https://img.shields.io/badge/Proyecto-Ft_printf-blue)
-![Licencia](https://img.shields.io/badge/Licencia-MIT-orange)
-[![Change_Language](https://img.shields.io/badge/Change_Language-English-purple)](https://github.com/MiMendiola/Ft_printf#ft_printf)
-![Versión](https://img.shields.io/badge/Versión-1.0-green)
+<div>
+
+  ![Projecto](https://img.shields.io/badge/Projecto-Libft-blue)
+  ![Licencia](https://img.shields.io/badge/Licencia-MIT-orange)
+  ![Versión](https://img.shields.io/badge/Versión-1.0-green)
+  <a href="https://github.com/MiMendiola/Ft_printf#ft_printf" >
+    <img src="https://img.shields.io/badge/Change_Language-English-purple" align="right">
+  </a>
+
+</div>
 
 El objetivo de este proyecto es reprogramar una de las funciones mas practicas `printf` y poder descubrir las `funciones variadicas` en C.
 Tendremos la libertad de hacer todos los archivos que queramos y tendremos que tenerlo en cuenta en nuestro `.h` y `Makefile`.
