@@ -1,9 +1,15 @@
 # Ft_printf
 
-![Project](https://img.shields.io/badge/Project-Ft_printf-blue)
-![Licence](https://img.shields.io/badge/Licence-MIT-orange)
-[![Cambiar_Idioma](https://img.shields.io/badge/Cambiar_Idioma-Español-purple)](https://github.com/MiMendiola/Ft_printf/tree/main/Documentation/README.es.md)
-![Version](https://img.shields.io/badge/Version-1.0-green)
+<div>
+
+  ![Project](https://img.shields.io/badge/Project-Libft-blue)
+  ![Licence](https://img.shields.io/badge/Licence-MIT-orange)
+  ![Version](https://img.shields.io/badge/Version-1.0-green)
+  <a href="https://github.com/MiMendiola/Ft_printf/tree/main/Documentation/README.es.md" >
+    <img src="https://img.shields.io/badge/Cambiar_Idioma-Español-purple" align="right">
+  </a>
+
+</div>
 
 This project aims to reprogram the practical function `printf` and learn about using `variadic functions` in C. We can create as many files as we want and keep this in mind while creating our `.h` and `Makefile`.
 
