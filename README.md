@@ -37,7 +37,7 @@ In `ft_printf_others`, we placed functions needed to display hexadecimal numbers
 
 Investigate how to work with `variadic functions` and what possibilities of use we have with them.
 
-Have a clear idea of what `type of conversions` we need to perform and how to make those conversions. For this, you can seek help from some functions in the library, but remember that you cannot include `Libft`.
+Have a clear idea of what `type of conversions` we need to perform and how to make those conversions. For this, you can seek help from some functions in the `Libft`.
 
 Find out and understand how `hexadecimal numbers` work, how they became what they are, and how we can use them to our advantage. Similarly, with `pointer addresses`, understand how they are formed and how to use them.
 
