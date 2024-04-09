@@ -37,7 +37,7 @@ Primero hablemos de nuestro archivo principal `ft_printf` donde tendremos nuestr
 
 Investigar como trabajar con las `funciones variadicas` y que posibilidades de uso tenemos con ellas.
 
-Tener claro que tipo de `conversiones` tenemos que realizar y como poder realizar esas conversiones. Para esto te puedes ayudar en algunas de las funciones de la libreria pero recuerda que no puedes incluir la `Libft`.
+Tener claro que tipo de `conversiones` tenemos que realizar y como poder realizar esas conversiones. Para esto te puedes ayudar en algunas de las funciones de la `Libft`.
 
 Averiguar y saber como funcionan los `numeros hexadecimales`, como llegaron a ser lo que son y en que podemos usarlo a nuestro favor. Al igual que con las `direcciones de los punteros`, saber como se forma y como poder utilizarlos.
 
